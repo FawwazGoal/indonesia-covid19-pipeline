@@ -1,1 +1,14 @@
 name: indonesia-covid19
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - apache-airflow
+  - pandas
+  - psycopg2
+  - requests
+  - pytest
+  - pip
+  - pip:
+    - apache-superset
